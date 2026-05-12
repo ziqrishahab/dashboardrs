@@ -1,5 +1,6 @@
 {
   "rewrites": [
+    { "source": "/api/:path*", "destination": "https://api-rs.ziqrishahab.com/api/:path*" },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
