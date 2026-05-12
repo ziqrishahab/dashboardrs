@@ -37,11 +37,11 @@ export default function LoginPage() {
 
         <form onSubmit={handleSubmit}>
           <div className="form-group">
-            <label className="form-label">Username / Email</label>
+            <label className="form-label">Username</label>
             <input
               type="text"
               className="form-input"
-              placeholder="superadmin atau admin@halors.com"
+              placeholder="username"
               value={username}
               onChange={e => setUsername(e.target.value)}
               required
